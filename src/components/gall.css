@@ -1,0 +1,74 @@
+.gall-container{
+    position: relative;
+}
+.gall-container .image-container{
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+    padding: 10px;
+}
+.gall-container .image-container .image{
+    height: 250px;
+    width: 300px;
+    border: 10px solid #fff;
+    box-shadow: 0 5px 15px rgba(0,0,0,.1);
+    overflow: hidden;
+    cursor: pointer;
+}
+.gall-container .image-container .image img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transition: .2s linear;
+}
+
+.gall-container .image-container .image:hover img{
+   transform: scale(1.1);
+}
+.gall-container .popup-imag{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,.9);
+    height: 100vh;
+    width: 100%;
+    z-index: 999999;
+    display: none;
+}
+.gall-container .popup-imag span{
+    position: absolute;
+    top:0;
+    right: 10px;
+    font-size: 40px;
+    font-weight: bolder;
+    color: white;
+    cursor: pointer;
+    z-index: 100;
+}
+.popup-imag > div{
+    margin: 5% auto; 
+}
+.popupImg{
+    /* position: absolute;   */
+    /* transform: translate(-50% -50%); */
+    margin: 100px auto;
+    border: 5px solid #fff;
+    border-radius: 5px;
+    /* width: 100%; */
+    height: 80vh;
+    object-fit: cover;
+}
+@media(max-width:768px){
+    .popup-imag > div{
+        margin: 15% auto; 
+    }
+    .popupImg{ 
+        /* margin: 100px auto; */
+        border: 5px solid #fff;
+        border-radius: 5px; 
+    height: 50vh; 
+        object-fit: cover;
+    }
+}

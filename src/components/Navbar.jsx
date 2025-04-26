@@ -51,7 +51,7 @@ const Navbar = () => {
               <p class='fs-5 fw-bold' style={{cursor:'pointer'}} onClick={()=>navigate('/')}>Home</p>
               <p class='fs-5 fw-bold' style={{cursor:'pointer'}} onClick={()=>navigate('/about-us')}>About Us</p>
               <p class='fs-5 fw-bold' style={{cursor:'pointer'}} onClick={()=>navigate('/services')}>Services</p>
-              {/* <p class='fs-5 fw-bold' style={{cursor:'pointer'}} onClick={()=>navigate('/projects')} >Projects</p> */}
+              {/* <p class='fs-5 fw-bold' style={{cursor:'pointer'}} onClick={()=>navigate('/fostac')} >Fostac</p> */}
 
               <p class='fs-5 fw-bold' style={{cursor:'pointer'}} onClick={()=>navigate('/contact-us')}>Contact Us</p>
             </div>
@@ -75,7 +75,7 @@ const Navbar = () => {
               <p class='fs-1 fw-semibold' style={{ cursor: 'pointer' }} onClick={() => movePage('/')}>Home</p>
               <p class='fs-1 fw-semibold' style={{ cursor: 'pointer' }} onClick={() => movePage('/about-us')}>About Us</p>
               <p class='fs-1 fw-semibold' style={{ cursor: 'pointer' }} onClick={() => movePage('/services')}>Services</p>
-              {/* <p class='fs-1 fw-semibold' style={{ cursor: 'pointer' }} onClick={() => movePage('/projects')}>Projects</p> */}
+              {/* <p class='fs-1 fw-semibold' style={{ cursor: 'pointer' }} onClick={() => movePage('/fostac')}>Fostac</p> */}
 
               <p class='fs-1 fw-semibold' style={{ cursor: 'pointer' }} onClick={() => movePage('/contact-us')}>Contact Us</p>
             </div>
