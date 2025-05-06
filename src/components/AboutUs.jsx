@@ -6,31 +6,15 @@ import { Helmet } from 'react-helmet';
 import Gall from './Gall';
 
 const gallery1 = [
-    { src: `${require('../image/arv1.jpg')}` },
-    { src: `${require('../image/arv2.jpg')}` },
     { src: `${require('../image/arv3.jpg')}` },
-    { src: `${require('../image/arv4.jpg')}` },
-    { src: `${require('../image/arv5.jpg')}` },
-    { src: `${require('../image/arv6.jpg')}` },
-    { src: `${require('../image/arv7.jpg')}` },
-    { src: `${require('../image/arv8.jpg')}` },
     { src: `${require('../image/arv9.jpg')}` },
-    { src: `${require('../image/arv10.jpg')}` },
-    { src: `${require('../image/arv11.jpg')}` },
-    { src: `${require('../image/arv12.jpg')}` },
-    { src: `${require('../image/arv13.jpg')}` },
-    { src: `${require('../image/arv14.jpg')}` },
-    { src: `${require('../image/arv15.jpg')}` },
-    { src: `${require('../image/arv16.jpg')}` },
-    { src: `${require('../image/arv17.jpg')}` },
-    { src: `${require('../image/arv18.jpg')}` },
-    { src: `${require('../image/arv19.jpg')}` },
-    { src: `${require('../image/arv20.jpg')}` },
+
     { src: `${require('../image/arv21.jpg')}` },
-    { src: `${require('../image/arv22.jpg')}` },
     { src: `${require('../image/arv23.jpg')}` },
-    { src: `${require('../image/arv24.jpg')}` },
     { src: `${require('../image/arv25.jpg')}` },
+    { src: `${require('../image/gg1.jpg')}` },
+    { src: `${require('../image/gg2.jpg')}` },
+
 
 ]
 
@@ -125,8 +109,8 @@ const AboutUs = () => {
                             <p class='mt-2 tjustify'>Our experienced team is dedicated to building a safer, more reliable food industry. Together, we aim to raise the bar for food quality and consumer safety.</p>
                             <div class='text-end'>
                                 <p class='fw-bold'>Warm regards,</p>
-                                <p class='fs-4 fw-bold'>Rakesh Chouve</p>
-                                <p class='fw-bold'>Director, ARV Services & Consultant</p>
+                                <p class='fs-4 fw-bold'>Rakesh Choubey</p>
+                                <p class='fw-bold'>General Manager, ARV Services & Consultant</p>
                             </div>
 
                             <br /> <br />

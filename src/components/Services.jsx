@@ -17,7 +17,6 @@ const service = [
         ]
     },
     {
-
         title: "Regulatory Compliance ",
         text: "Navigating the complex landscape of food safety regulations can be challenging. We provide comprehensive support to ensure your operations comply with national and international regulations, including: ",
         offer: [
@@ -26,7 +25,6 @@ const service = [
         ]
     },
     {
-
         title: "Customized Training Programs ",
         text: "We design and deliver tailored training programs to meet the specific needs of your organization, covering areas such as: ",
         offer: [
@@ -35,11 +33,9 @@ const service = [
             "<p><b>Internal Auditing: </b> Equipping your team with the skills to conduct effective internal audits, ensuring ongoing compliance and continuous improvement.</p>",
             "<p><b>Pest Control Management: </b> Strategies for effective pest management to prevent contamination and ensure food safety. </p>",
             "<p><b>Food Safety Culture: </b> Fostering a culture that prioritizes food safety at every level of your organization. </p>",
-
         ]
     },
     {
-
         title: "Soft Skills Development",
         text: "Recognizing the importance of holistic development, we offer programs focusing on personal and professional growth, including: ",
         offer: [
@@ -47,8 +43,26 @@ const service = [
             "<p><b>Role-Based Competency Building: </b> Enhancing the specific skills required for various roles within your organization. </p>",
         ]
     },
-
+    {
+        title: "Food Test Report ",
+        text: "We facilitate expert consultation for food testing and analysis, ensuring your products meet safety and quality standards through certified laboratories. Our services include:",
+        offer: [
+            "<p><b>Sample Collection Guidance: </b> Assistance with proper food sample collection methods to ensure test accuracy.</p>",
+            "<p><b>Lab Coordination: </b> End-to-end support in submitting samples to certified laboratories for microbiological, chemical, and nutritional analysis.</p>",
+            "<p><b>Report Interpretation: </b> Expert review and explanation of test results to identify compliance gaps and corrective actions.</p>"
+        ]
+    },
+    {
+        title: "Water Test Report ",
+        text: "We provide professional guidance for testing potable and process water to ensure safety, compliance, and suitability for food production environments.",
+        offer: [
+            "<p><b>Sample Collection Support: </b> Instructions for collecting water samples under hygienic and standardized procedures.</p>",
+            "<p><b>Lab Testing Facilitation: </b> Coordination with accredited laboratories for physical, chemical, and microbiological analysis of water samples.</p>",
+            "<p><b>Expert Analysis & Recommendations: </b> Detailed review of lab reports with actionable recommendations for improvement.</p>"
+        ]
+    }
 ];
+
 
 
 const Services = () => {

@@ -12,7 +12,7 @@ const Footer = () => {
                     <div class='col-11  text-start '>
                         <img src={require('../image/footerLogo.png')} style={{ width: '200px' }} alt="" />
 
-                        <div class='d-flex align-items-center gap-4 lmg mt-4 fs-2'>
+                        {/* <div class='d-flex align-items-center gap-4 lmg mt-4 fs-2'>
 
                             <a>
                                 <i class="bi bi-instagram"></i>
@@ -31,7 +31,7 @@ const Footer = () => {
 
                             <br />
 
-                        </div>
+                        </div> */}
                     </div>
                 </div>
                 <div class='col-lg-4 col-md-6'>
@@ -59,6 +59,8 @@ const Footer = () => {
                         <p class=''><a href='tel:+919585049048' style={{ textDecoration: 'none' }}>+91 95850 49048</a></p>
 
                         <p class='fs-5 mt-2'><b>Mail </b></p>
+                        <p class=''><a href='mailto:arvservicesconsultant@gmail.com' style={{ textDecoration: 'none' }}>arvservicesconsultant@gmail.com</a> </p>
+
                         <p class=''><a href='mailto:info.arvservices@gmail.com' style={{ textDecoration: 'none' }}>info.arvservices@gmail.com</a> </p>
                     </div>
                 </div>

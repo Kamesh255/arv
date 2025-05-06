@@ -34,7 +34,9 @@ const Contact = () => {
                         <p class='fs-4 fw-semibold mt-2'>Mobile :</p>
                         <p class='fs-5'><a href='tel:+919585049048' style={{ textDecoration: 'none' }}>+91 95850 49048</a></p>
                         <p class='fs-4 fw-semibold mt-2'>Mail :</p>
-                        <p class='fs-5'><a href='mailto:info.arvservices@gmail.com' style={{ textDecoration: 'none' }}>info.arvservices@gmail.com                        </a> </p>
+                        <p class='fs-5'><a href='mailto:arvservicesconsultant@gmail.com' style={{ textDecoration: 'none' }}>arvservicesconsultant@gmail.com </a> </p>
+
+                        <p class='fs-5'><a href='mailto:info.arvservices@gmail.com' style={{ textDecoration: 'none' }}>info.arvservices@gmail.com </a> </p>
 
                     </div>
                 </div>

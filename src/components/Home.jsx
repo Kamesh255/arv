@@ -79,11 +79,11 @@ const slider = [
 
 const homeTopslider = [
   { img: `${require('../image/h1.jpg')}` },
-  { img: `${require('../image/arv1.jpg')}` },
+  { img: `${require('../image/hh1.jpg')}` },
   { img: `${require('../image/arv2.jpg')}` },
   { img: `${require('../image/h2.jpg')}` },
   { img: `${require('../image/arv3.jpg')}` },
-  { img: `${require('../image/arv4.jpg')}` },
+  // { img: `${require('../image/arv4.jpg')}` },
   { img: `${require('../image/h3.jpg')}` },
 
 ]
@@ -142,7 +142,7 @@ const Home = () => {
           </div>
         </div>
         <div class='col-md-6'>
-          <img class='rounded-4' data-aos="fade-in" src={require('../image/ha.jpg')} style={{ width: '100%' }} alt="" />
+          <img class='rounded-4' data-aos="fade-in" src={require('../image/ha1.jpg')} style={{ width: '100%' }} alt="" />
         </div>
       </div>
       {/* <div class='col-11 m-auto mt-5 '>
